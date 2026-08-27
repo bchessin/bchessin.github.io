@@ -3,10 +3,10 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Bradford Chessin — HIIT + Zumba Training',
-  description: 'HIIT, Zumba, and private training with Bradford Chessin. In person at F45 Training and online through Google Meet.',
+  description: 'In-person HIIT at F45 Training, online Zumba through Google Meet, and private fitness coaching with Bradford Chessin.',
   openGraph: {
     title: 'Bradford Chessin — HIIT + Zumba Training',
-    description: 'Build strength. Find your rhythm. Group fitness in person at F45 and online through Google Meet.',
+    description: 'Build strength. Find your rhythm. In-person HIIT at F45 and online Zumba through Google Meet.',
     type: 'website',
   },
 };

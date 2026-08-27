@@ -95,6 +95,14 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
 .class-details span { font-size: 10px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
 .class-card-bottom { align-items: center; border-top: 1px solid rgba(22, 24, 19, .35); padding-top: 14px; }
 .class-card-bottom a { border-bottom: 1px solid currentColor; padding-bottom: 3px; }
+.fit-section { background: #e4ded2; display: grid; gap: 10vw; grid-template-columns: minmax(0, 1fr) minmax(280px, .85fr); }
+.fit-lead h2 { font-size: clamp(45px, 5vw, 72px); line-height: .9; margin: 0; }
+.fit-lead > p:not(.eyebrow) { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 29px 0 0; max-width: 450px; }
+.fit-list { align-self: end; border-top: 1px solid var(--line); }
+.fit-list > div { border-bottom: 1px solid var(--line); display: grid; gap: 20px; grid-template-columns: 40px 1fr; padding: 20px 0; }
+.fit-list > div > span { font-size: 10px; font-weight: 700; letter-spacing: .1em; }
+.fit-list strong { display: block; font-size: 16px; letter-spacing: -.04em; }
+.fit-list p { color: var(--muted); font-size: 12px; line-height: 1.45; margin: 7px 0 0; max-width: 300px; }
 .schedule-section { background: var(--paper); }
 .schedule-header { margin-bottom: 50px; }
 .schedule-header .section-intro h2 { max-width: 550px; }
@@ -176,12 +184,16 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
 .booking-side-note { align-items: flex-start; display: flex; gap: 15px; }
 .note-mark { font-size: 22px; }
 .booking-side-note p { font-family: Georgia, 'Times New Roman', serif; font-size: 17px; line-height: 1.25; margin: 0; max-width: 300px; }
+.business-details { display: flex; flex-direction: column; gap: 8px; }
+.business-details > strong { font-size: 18px; letter-spacing: -.04em; }
+.business-details > span { color: var(--muted); font-size: 11px; }
 
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; }
   .hero-copy { min-height: 580px; }
   .hero-art { min-height: 480px; }
   .credential-teaser, .credential-page-grid { grid-template-columns: 1fr; }
+  .fit-section { grid-template-columns: 1fr; }
   .credential-image-wrap, .credential-document { max-width: 650px; width: 100%; }
   .schedule-row { gap: 12px; grid-template-columns: 62px minmax(180px, 1fr) auto; }
   .schedule-instructor { grid-column: 2 / 3; grid-row: 2; padding-left: 0; border: 0; }
@@ -220,6 +232,7 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
   .trust-strip i { height: 4px; width: 4px; }
   .page-section { padding-bottom: 78px; padding-top: 78px; }
   .manifesto, .booking-banner, .booking-page-grid { grid-template-columns: 1fr; }
+  .fit-section { gap: 53px; }
   .manifesto { gap: 53px; }
   .section-intro h2, .classes-section h2 { font-size: 47px; }
   .section-bar, .schedule-header { display: block; }
