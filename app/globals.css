@@ -39,6 +39,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .eyebrow { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .16em; margin: 0 0 22px; text-transform: uppercase; }
 .hero-eyebrow { align-items: center; display: flex; gap: 8px; }
 .live-dot { background: var(--coral); border-radius: 50%; display: inline-block; height: 8px; width: 8px; }
+.hero-identity { align-items: baseline; display: flex; flex-wrap: wrap; font-size: 12px; gap: 7px; letter-spacing: .06em; margin: -7px 0 23px; text-transform: uppercase; }
+.hero-identity strong { font-size: 13px; }
+.hero-identity span { color: var(--muted); }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { font-weight: 800; letter-spacing: -.07em; }
 h1 { font-size: clamp(50px, 7.1vw, 112px); line-height: .91; margin: 0; max-width: 850px; }
