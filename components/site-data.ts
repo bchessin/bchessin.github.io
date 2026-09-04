@@ -17,15 +17,17 @@ export const instructor = {
 };
 
 export const sessions: Session[] = [
-  { weekday: 'Thursday', date: '27', month: 'AUG', fullDate: 'Thursday, August 27, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
-  { weekday: 'Thursday', date: '03', month: 'SEP', fullDate: 'Thursday, September 3, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
   { weekday: 'Thursday', date: '10', month: 'SEP', fullDate: 'Thursday, September 10, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
   { weekday: 'Thursday', date: '17', month: 'SEP', fullDate: 'Thursday, September 17, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
   { weekday: 'Thursday', date: '24', month: 'SEP', fullDate: 'Thursday, September 24, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
   { weekday: 'Thursday', date: '01', month: 'OCT', fullDate: 'Thursday, October 1, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
   { weekday: 'Thursday', date: '08', month: 'OCT', fullDate: 'Thursday, October 8, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
   { weekday: 'Thursday', date: '15', month: 'OCT', fullDate: 'Thursday, October 15, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
+  { weekday: 'Thursday', date: '22', month: 'OCT', fullDate: 'Thursday, October 22, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
+  { weekday: 'Thursday', date: '29', month: 'OCT', fullDate: 'Thursday, October 29, 2026', time: '6:30–7:30 PM ET', format: 'Online', location: 'Google Meet', kind: 'Zumba', status: 'Open' },
 ];
+
+export const scheduleUpdated = 'September 4, 2026';
 
 export const classOfferings = [
   { number: '01', title: 'Zumba', eyebrow: 'Rhythm + cardio', description: 'A high-energy dance workout that keeps the room moving. Expect simple choreography, big music, and an hour that feels more like a party than a workout.', details: ['60 minutes', 'Group class', 'Online · Google Meet'], availability: 'Thursdays · 6:30 PM ET', color: 'lime' },

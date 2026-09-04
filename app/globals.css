@@ -134,6 +134,16 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
 .credential-image { display: block; height: auto; max-width: 100%; width: 100%; }
 .credential-image-label { font-size: 9px; font-weight: 700; letter-spacing: .1em; margin-bottom: 15px; text-transform: uppercase; }
 .image-caption { color: var(--muted); display: block; font-size: 9px; margin-top: 9px; }
+.role-proof { background: var(--cream); display: grid; gap: 10vw; grid-template-columns: minmax(0, .85fr) minmax(360px, 1.15fr); }
+.role-proof-copy h2 { font-size: clamp(50px, 6vw, 90px); line-height: .88; margin: 0; }
+.role-proof-copy > p:not(.eyebrow) { color: var(--muted); font-size: 15px; line-height: 1.6; margin: 29px 0 34px; max-width: 430px; }
+.role-data { border-top-color: var(--line); margin-bottom: 34px; }
+.role-data > div { border-bottom-color: var(--line); }
+.role-data span { color: var(--muted); }
+.role-data strong { color: var(--ink); }
+.role-proof-card { align-self: center; background: #fff; padding: 20px 20px 13px; transform: rotate(-1.5deg); }
+.role-proof-image { display: block; height: auto; max-width: 100%; width: 100%; }
+.role-proof-card > span { color: var(--muted); display: block; font-size: 9px; line-height: 1.4; margin-top: 10px; }
 .booking-banner { align-items: end; background: var(--lime); display: grid; gap: 10vw; grid-template-columns: 1fr 1fr; }
 .booking-banner h2 { font-size: clamp(48px, 6vw, 86px); line-height: .86; margin: 0; }
 .booking-banner-right { max-width: 410px; }
@@ -194,6 +204,8 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
   .hero-art { min-height: 480px; }
   .credential-teaser, .credential-page-grid { grid-template-columns: 1fr; }
   .fit-section { grid-template-columns: 1fr; }
+  .role-proof { grid-template-columns: 1fr; }
+  .role-proof-card { max-width: 650px; width: 100%; }
   .credential-image-wrap, .credential-document { max-width: 650px; width: 100%; }
   .schedule-row { gap: 12px; grid-template-columns: 62px minmax(180px, 1fr) auto; }
   .schedule-instructor { grid-column: 2 / 3; grid-row: 2; padding-left: 0; border: 0; }
