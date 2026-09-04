@@ -22,6 +22,7 @@ type WeeklyClass = {
 export const instructor = {
   name: 'Bradford Chessin',
   title: 'Certified Group Fitness Instructor',
+  occupation: 'Independent fitness coaching',
   email: 'chessinb@gmail.com',
 };
 
