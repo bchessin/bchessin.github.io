@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { classOfferings, instructor, mailto, scheduleUpdated, sessions, type Session } from './site-data';
 
 const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
-const certificateImage = `${publicBasePath}/ZumbaCertification.png`;
+const certificateImage = `${publicBasePath}/AFAA-Primary-Group-Exercise-Certification.png`;
 const f45BadgeImage = `${publicBasePath}/f45Badge.png`;
 
 type SiteShellProps = { page?: 'home' | 'classes' | 'schedule' | 'credentials' | 'book' };
