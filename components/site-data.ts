@@ -27,6 +27,15 @@ export const instructor = {
 };
 
 export const schedulerUrl = 'https://brad7wev.setmore.com/';
+export const zumbaBookingUrl = 'https://brad7wev.setmore.com/services/99a96601-738f-4306-b4cf-7e334c005a88';
+export const f45BookingUrl = 'https://brad7wev.setmore.com/services/036c2841-732c-4663-b622-c3d52070668d';
+
+export function getBookingUrl(service: string) {
+  const normalizedService = service.toLowerCase();
+  if (normalizedService.includes('zumba')) return zumbaBookingUrl;
+  if (normalizedService.includes('hiit')) return f45BookingUrl;
+  return schedulerUrl;
+}
 
 export const weeklySchedule: WeeklyClass[] = [
   { day: 1, weekday: 'Monday', kind: 'F45 HIIT', time: '6:10–6:55 PM ET', format: 'In person', location: 'F45 Training' },
