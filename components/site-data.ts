@@ -26,6 +26,8 @@ export const instructor = {
   email: 'chessinb@gmail.com',
 };
 
+export const schedulerUrl = 'https://brad7wev.setmore.com/';
+
 export const weeklySchedule: WeeklyClass[] = [
   { day: 1, weekday: 'Monday', kind: 'F45 HIIT', time: '6:10–6:55 PM ET', format: 'In person', location: 'F45 Training' },
   { day: 2, weekday: 'Tuesday', kind: 'Zumba', time: '6:10–7:10 PM ET', format: 'Online', location: 'Google Meet' },
